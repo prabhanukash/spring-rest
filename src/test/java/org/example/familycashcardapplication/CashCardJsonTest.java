@@ -35,8 +35,4 @@ public class CashCardJsonTest {
                """;
         assertThat(json.parse(expected)).isEqualTo(new CashCard(99L,123.45));
     }
-    @Test
-    void myFirstTest() {
-        assertThat(1).isEqualTo(1);
-    }
 }
